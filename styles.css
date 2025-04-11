@@ -1,0 +1,43 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+body{
+    background-color: rgb(138, 138, 220);
+}
+
+nav ol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color:rgba(100, 148, 237, 0.706);
+}
+
+nav ol li a:hover{
+    background-color: blue;
+    color:rgb(47, 12, 116);
+    padding:10px
+}
+
+footer{
+    background-color: rgba(0, 255, 255, 0.382);
+    color:rgb(51, 63, 63);
+    position: fixed;
+    bottom:0px;
+    padding: 40px;
+    justify-content:center;
+}
+
+ul li{
+    padding:5px;
+}
+ul li:hover{
+    padding:5px;
+    background-color:aliceblue;
+    cursor: progress;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+
+}
